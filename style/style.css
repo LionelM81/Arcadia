@@ -1,0 +1,13 @@
+.btn {
+    background-color: #9E8654;
+    color: white;
+}
+
+.bg-primary {
+    background-color: #9E8654 !important;
+}
+
+.navbar {
+    font-family: roboto;
+    font-weight: bolder;
+}

@@ -5,9 +5,16 @@
 
 .bg-primary {
     background-color: #9E8654 !important;
+    color: white;
 }
 
 .navbar {
     font-family: roboto;
     font-weight: bolder;
+}
+
+p {
+    font-family: Grandstander;
+    font-weight: bolder;
+    color: white;
 }

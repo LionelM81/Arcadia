@@ -1,3 +1,12 @@
+h2 {
+    font-family: roboto;
+    font-weight: bolder;
+}
+
+p {
+    font-family: grandstander;
+}
+
 .btn {
     background-color: #9E8654;
     color: white;
@@ -17,4 +26,34 @@
     font-family: Grandstander;
     font-weight: bolder;
     color: white;
+}
+
+.big-title {
+    position: relative;
+
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../image/Savane/zebras-927272_1280.jpg);
+        background-size: cover;
+        filter: brightness(0.7);
+    }
+
+    * {
+        /*positionner les élément devant*/
+        position: relative;
+    }
+
+    .bit-title-content {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

@@ -1,6 +1,7 @@
 h2 {
     font-family: roboto;
     font-weight: bolder;
+    text-align: center;
 }
 
 p {
@@ -14,7 +15,10 @@ p {
 
 .bg-primary {
     background-color: #9E8654 !important;
-    color: white;
+}
+
+.bg-secondary {
+    background-color: #e9e774 !important;
 }
 
 .navbar {
@@ -56,4 +60,9 @@ p {
         align-items: center;
         justify-content: center;
     }
+}
+
+img {
+    border-radius: 30px;
+    padding-block: 15px;
 }
